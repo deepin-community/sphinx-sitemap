@@ -1,4 +1,6 @@
 #!/usr/bin/make -f
 
+export PYBUILD_NAME=sphinx_sitemap
+
 %:
-	dh $@
+	dh $@ --buildsystem=pybuild
