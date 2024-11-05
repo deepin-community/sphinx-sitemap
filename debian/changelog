@@ -1,5 +1,54 @@
-template-repository (1.0-1) unstable; urgency=medium
+sphinx-sitemap (2.6.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team Upload
+  * Make watch file see 2.6.0
+  * New upstream version 2.6.0
+  * Add dependency on python3-pytest to enable tests
+    as available only in the GitHub tarball.
+  * Use new dh-sequence-python3
+  * Fix PYBUILD_NAME
+  * Add python3-setuptools-scm build dep
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Alexandre Detiste <tchet@debian.org>  Wed, 21 Aug 2024 19:33:22 +0200
+
+sphinx-sitemap (2.5.1-1) unstable; urgency=medium
+
+  * New upstream version 2.5.1
+
+ -- Juri Grabowski <debian@jugra.de>  Fri, 23 Feb 2024 10:34:10 +0100
+
+sphinx-sitemap (2.5.0-1) unstable; urgency=medium
+
+  [ Janitor ]
+  * Set upstream metadata fields: Repository, Repository-Browse
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Juri Grabowski ]
+  * New upstream version 2.2.1
+  * New upstream version 2.5.0
+
+ -- Juri Grabowski <debian@jugra.de>  Wed, 24 May 2023 18:01:51 +0200
+
+sphinx-sitemap (2.2.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sat, 25 Jun 2022 15:11:56 +0200
+
+sphinx-sitemap (2.2.0-1) experimental; urgency=medium
+
+  [ Bastian Germann ]
+  * d/control: Apply Python Team's maintainership rules
+
+  [ Juri Grabowski ]
+  * d/gbp.conf remove personal preference builder
+  * d/copyright s/MIT/Expat/ as suggested by Stefano Rivera <stefanor@debian.org>
+  * d/control: remove comments, empty entry
+  * d/rules: remove boilerplate comments
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Initial release (Closes: #1002731)
+
+ -- Juri Grabowski <debian@jugra.de>  Fri, 10 Jun 2022 09:54:38 +0200
